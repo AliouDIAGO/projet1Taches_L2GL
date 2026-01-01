@@ -197,7 +197,7 @@ if ($user['role'] === 'admin') {
                                     <a href="edit.php?id=<?= $t['id'] ?>" class="btn btn-sm btn-warning">Modifier</a>
                                     <a href="action.php?delete=<?= $t['id'] ?>"
                                        class="btn btn-sm btn-danger"
-                                       onclick="return confirm('Supprimer cette tâche ?')">
+                                       onclick="return confirm('Supprimer cette tache ?')">
                                        Supprimer
                                     </a>
                                 </td>
